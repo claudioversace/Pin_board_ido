@@ -31,6 +31,8 @@ gem 'devise', '~> 4.2'
 gem 'paperclip', '~> 5.1'
 # Masonry for Rails asset pipeline
 gem 'masonry-rails', '~> 0.2.4'
+# Allowing records to be votable
+gem 'acts_as_votable', '~> 0.10.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
