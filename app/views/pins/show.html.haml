@@ -20,5 +20,6 @@
               = link_to like_pin_path(@pin), method: :put, class: "btn btn-default" do
                 %span.glyphicon.glyphicon-heart
                   = @pin.get_upvotes.size
-              = link_to "Editer", edit_pin_path, class: "btn btn-default"
-              = link_to "Supprimer", pin_path, method: :delete, data: { confirm:"Etes vous sûr?" }, class: "btn btn-default"
+              - if user_signed_in?
+                = link_to "Editer", edit_pin_path, class: "btn btn-default"
+                = link_to "Supprimer", pin_path, method: :delete, data: { confirm:"Etes vous sûr?" }, class: "btn btn-default"
