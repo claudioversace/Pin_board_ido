@@ -27,6 +27,8 @@ gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'simple_form', '~> 3.4'
 # Flexible authentication solution for Rails with Warden
 gem 'devise', '~> 4.2'
+# Ajouter de fichier
+gem 'paperclip', '~> 5.1'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
